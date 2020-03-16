@@ -22,7 +22,7 @@ class Song
   end
   
   def self.find_by_name(name)
-    song = 
+    song = self.all.select {||}
   end
   def save
     self.class.all << self
