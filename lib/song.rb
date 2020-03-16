@@ -6,7 +6,8 @@ class Song
     @@all
   end
   def self.create
-    song = s
+    song = self.new
+    song
   end
 
   def save
