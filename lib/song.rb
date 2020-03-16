@@ -10,6 +10,7 @@ class Song
     song.save
     song
   end
+  def 
 
   def save
     self.class.all << self
