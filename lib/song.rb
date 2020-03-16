@@ -25,6 +25,9 @@ class Song
     song = self.all.select { |song| song.name == name}
     song[0]
   end
+  def self.find_or_create_by_name(name)
+    
+  end
   def save
     self.class.all << self
   end
